@@ -1,2 +1,11 @@
-fastapi
-uvicorn
+# Core
+flask==2.3.2
+gunicorn==20.1.0
+
+# If using FastAPI (replace Flask if needed)
+# fastapi==0.95.2
+# uvicorn==0.22.0
+
+# Add other dependencies your API uses, e.g.:
+# pandas==2.0.3
+# sqlalchemy==2.0.19
